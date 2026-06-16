@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="AURORA Gallery – Browse our portfolio of design, technology, and business work."/>
+  <title>Gallery – AURORA</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="mainNav" class="navbar navbar-expand-lg scrolled">
+  <div class="container">
+    <a class="navbar-brand nav-logo" href="index.html">AURO<span>RA</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link active" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item ms-lg-2">
+          <a class="btn-aurora btn-aurora-primary" href="contact.html">Get Started</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="container">
+    <nav aria-label="breadcrumb" class="mb-4">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item active">Gallery</li>
+      </ol>
+    </nav>
+    <span class="section-eyebrow">Portfolio</span>
+    <h1 class="page-hero-title mb-3">
+      Work That Speaks <span class="grad-text">For Itself</span>
+    </h1>
+    <p class="page-hero-sub">
+      A curated selection across design, technology, and business projects.
+      Click any image to explore in full.
+    </p>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="section-pad">
+  <div class="container">
+
+    <!-- Filter Bar -->
+    <div class="filter-bar reveal">
+      <button class="filter-btn active" data-filter="all">All Work</button>
+      <button class="filter-btn" data-filter="design">Design</button>
+      <button class="filter-btn" data-filter="technology">Technology</button>
+      <button class="filter-btn" data-filter="business">Business</button>
+      <button class="filter-btn" data-filter="nature">Nature</button>
+    </div>
+
+    <!-- Masonry Grid -->
+    <div class="masonry-grid">
+
+      <!-- Design items -->
+      <div class="masonry-item" data-category="design"
+           data-lightbox="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=1400&q=85">
+        <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=700&q=80"
+             alt="UI design mockup on tablet device"/>
+        <div class="masonry-overlay"><i class="fas fa-expand"></i></div>
+      </div>
+
+      <div class="masonry-item" data-category="technology"
+           data-lightbox="https://images.unsplash.com/photo-1518770660439-4636190af475?w=1400&q=85">
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=700&q=80"
+             alt="Circuit board technology close-up"/>
+        <div class="masonry-overlay"><i class="fas fa-expand"></i></div>
+      </div>
+
+      <div class="masonry-item" data-category="nature"
+           data-lightbox="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1400&q=85">
+        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=700&q=80"
+             alt="Mountain landscape at sunset with dramatic light"/>
+        <div class="masonry-overlay"><i class="fas fa-expand"></i></div>
+      </div>
+
+      <div class="masonry-item" data-category="business"
+           data-lightbox="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1400&q=85">
+        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=700&q=80"
+             alt="Business meeting with data charts on laptop"/>
+        <div class="masonry-overlay"><i class="fas fa-expand"></i></div>
+      </div>
+
+      <div class="masonry-item" data-category="design"
+           data-lightbox="https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=1400&q=85">
+        <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=700&q=80"
+             alt="Brand identity design collection with logos"/>
+        <div class="masonry-overlay"><i class="fas fa-expand"></i></div>
+      </div>
+
+      <div class="masonry-item" data-category="technology"
+           data-lightbox="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=1400&q=85">
+        <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=700&q=80"
+             alt="Modern laptop with code on screen"/>
+        <div class="masonry-overlay"><i class="fas fa-expand"></i></div>
+      </div>
+
+      <div class="masonry-item" data-category="nature"
+           data-lightbox="https://images.unsplash.com/photo-1470770903676-69b98201ea1c?w=1400&q=85">
+        <img src="https://images.unsplash.com/photo-1470770903676-69b98201ea1c?w=700&q=80"
+             alt="Forest with misty morning light filtering through trees"/>
+        <div class="masonry-overlay"><i class="fas fa-expand"></i></div>
+      </div>
+
+      <div class="masonry-item" data-category="business"
+           data-lightbox="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1400&q=85">
+        <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=700&q=80"
+             alt="Modern open office workspace interior"/>
+        <div class="masonry-overlay"><i class="fas fa-expand"></i></div>
+      </div>
+
+      <div class="masonry-item" data-category="design"
+           data-lightbox="https://images.unsplash.com/photo-1634986666676-ec8fd927c23d?w=1400&q=85">
+        <img src="https://images.unsplash.com/photo-1634986666676-ec8fd927c23d?w=700&q=80"
+             alt="Abstract colorful gradient design artwork"/>
+        <div class="masonry-overlay"><i class="fas fa-expand"></i></div>
+      </div>
+
+      <div class="masonry-item" data-category="technology"
+           data-lightbox="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1400&q=85">
+        <img src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=700&q=80"
+             alt="Blockchain and digital data visualization"/>
+        <div class="masonry-overlay"><i class="fas fa-expand"></i></div>
+      </div>
+
+      <div class="masonry-item" data-category="nature"
+           data-lightbox="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1400&q=85">
+        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=700&q=80"
+             alt="Dramatic mountain peak with snow and clouds"/>
+        <div class="masonry-overlay"><i class="fas fa-expand"></i></div>
+      </div>
+
+      <div class="masonry-item" data-category="business"
+           data-lightbox="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=1400&q=85">
+        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=700&q=80"
+             alt="Business team in a collaborative strategy meeting"/>
+        <div class="masonry-overlay"><i class="fas fa-expand"></i></div>
+      </div>
+
+      <div class="masonry-item" data-category="design"
+           data-lightbox="https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=1400&q=85">
+        <img src="https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=700&q=80"
+             alt="Creative workspace with design tools and sketches"/>
+        <div class="masonry-overlay"><i class="fas fa-expand"></i></div>
+      </div>
+
+      <div class="masonry-item" data-category="technology"
+           data-lightbox="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1400&q=85">
+        <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=700&q=80"
+             alt="Data center server room with blue lighting"/>
+        <div class="masonry-overlay"><i class="fas fa-expand"></i></div>
+      </div>
+
+      <div class="masonry-item" data-category="nature"
+           data-lightbox="https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1400&q=85">
+        <img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?w=700&q=80"
+             alt="Aerial view of green hills and countryside"/>
+        <div class="masonry-overlay"><i class="fas fa-expand"></i></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section-pad-sm bg-dark2">
+  <div class="container text-center reveal">
+    <h2 class="section-title mb-3">Like What You See?</h2>
+    <p class="section-sub mx-auto mb-4" style="text-align:center;">
+      Let's create something this remarkable for your brand.
+    </p>
+    <a href="contact.html" class="btn-aurora btn-aurora-primary">
+      Start Your Project <i class="fas fa-arrow-right ms-1"></i>
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-4 col-md-6">
+        <div class="footer-logo">AURO<span>RA</span></div>
+        <p class="footer-desc mb-3">A modern digital agency crafting exceptional experiences for forward-thinking brands.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+          <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-6 col-6">
+        <div class="footer-heading">Company</div>
+        <ul class="footer-links">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-6 col-6">
+        <div class="footer-heading">Services</div>
+        <ul class="footer-links">
+          <li><a href="services.html">UI/UX Design</a></li>
+          <li><a href="services.html">Development</a></li>
+          <li><a href="services.html">Mobile Apps</a></li>
+          <li><a href="services.html">Branding</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="footer-heading">Get In Touch</div>
+        <ul class="footer-links">
+          <li><a href="mailto:hello@aurora.studio"><i class="fas fa-envelope me-2 text-primary"></i>hello@aurora.studio</a></li>
+          <li><a href="tel:+15551234567"><i class="fas fa-phone me-2 text-primary"></i>+1 (555) 123-4567</a></li>
+          <li><span style="color:var(--muted);font-size:.9rem;"><i class="fas fa-location-dot me-2 text-primary"></i>42 Aurora Lane, San Francisco, CA</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 AURORA Digital Studio. All rights reserved.</p>
+      <p>Designed with <i class="fas fa-heart" style="color:#f87171;"></i> by the AURORA Team</p>
+    </div>
+  </div>
+</footer>
+
+<button id="backToTop" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox" role="dialog" aria-label="Image lightbox">
+  <button class="lightbox-close" aria-label="Close lightbox"><i class="fas fa-xmark"></i></button>
+  <img class="lightbox-img" src="" alt="Gallery image preview"/>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
